@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('homem-aranha-fundo.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+        }
+        header {
+            background-color: #c8102e;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #00274d;
+        }
+        main {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            background-color: #00274d;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        button:hover {
+            background-color: #c8102e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resposta</h1>
+    </header>
+    <main>
+        <h2>Quem é o Homem-Aranha?</h2>
+        <p>O Homem-Aranha é Peter Parker.</p>
+        <button onclick="window.location.href='index.html'">Voltar</button>
+    </main>
+</body>
+</html>
