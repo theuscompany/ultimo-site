@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homem-Aranha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjhHJp8yK8bpc35eooYD4KOgj-BVhZPHmwag&s') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+        }
+        header {
+            background-color: #c8102e;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #00274d;
+        }
+        main {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #ffcc00;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            margin-right: 10px;
+            display: inline-block;
+        }
+        video {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            background-color: #00274d;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        button:hover {
+            background-color: #c8102e;
+        }
+        footer {
+            background-color: #00274d;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-top: 5px solid #c8102e;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Homem-Aranha</h1>
+    </header>
+    <main>
+        <section id="historia">
+            <h2>A História do Homem-Aranha</h2>
+            <p>Peter Parker, um estudante de ciência, ganha superpoderes após ser mordido por uma aranha radioativa. Ele usa suas habilidades para combater o crime e proteger a cidade de Nova York.</p>
+        </section>
+        <section id="fotos">
+            <h2>Galeria de Fotos</h2>
+            <img src="https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2022/08/blob_35zm.jpg" alt="Homem-Aranha 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDzCyIzMpjjiWtn4M-womGA-qj4JtD0gorHw&s" alt="Homem-Aranha 2">
+        </section>
+        <section id="videos">
+            <h2>Vídeos</h2>
+            <video controls>
+                <source src="https://youtu.be/KRA-viXTSaU?si=GzXXGGL6bnFJtHUb" type="video/mp4">
+                Seu navegador não suporta o formato de vídeo.
+            </video>
+        </section>
+        <section id="perguntas">
+            <h2>Perguntas e Respostas</h2>
+            <button onclick="window.location.href='pergunta.html'">Quem é o Homem-Aranha?</button>
+        </section>
+        <section id="curiosidades">
+            <h2>Curiosidades</h2>
+            <ul>
+                <li>O Homem-Aranha foi criado por Stan Lee e Steve Ditko.</li>
+                <li>Seu primeiro aparecimento foi em Amazing Fantasy #15.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Homem-Aranha Fan Site</p>
+    </footer>
+</body>
+</html>
+
